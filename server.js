@@ -7,9 +7,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-    res.send('Willkommen im Versionskontroll-Wiki!');
+    res.send('Welcome to the version control wiki!');
 });
 
 app.listen(PORT, () => {
-    console.log(`Server läuft auf Port ${PORT}`);
+    console.log(`Server is running on port ${PORT}`);
 });
