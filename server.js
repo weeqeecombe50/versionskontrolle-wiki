@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-    res.send('Willkommen im Versionskontrolle Wiki!');
+    res.send('Willkommen im Versionskontroll-Wiki!');
 });
 
 app.listen(PORT, () => {
