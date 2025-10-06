@@ -1,0 +1,15 @@
+{
+  "name": "versionenkontrolle-wiki",
+  "version": "1.0.0",
+  "description": "Ein wiki-basiertes Versionskontrollsystem.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo 'Kein Test definiert' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  },
+  "license": "MIT"
+}
