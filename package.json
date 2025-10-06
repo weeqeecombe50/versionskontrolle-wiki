@@ -1,6 +1,6 @@
 {
   "name": "versionenkontrolle-wiki",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ein wiki-basiertes Versionskontrollsystem.",
   "main": "server.js",
   "scripts": {
